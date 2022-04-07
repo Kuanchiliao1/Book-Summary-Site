@@ -1,0 +1,47 @@
+
+
+.container {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    background-image: url(../Img/cd.png);
+    background-size: cover;
+    border: 20px black;
+
+
+}
+
+
+
+body {
+    background-color: aqua;
+}
+
+
+navbar {
+    display: flex;
+    justify-content: flex-end;
+    box-shadow: 0px 0px 10px;
+    margin: 20px;
+    font-size: 25px;
+    padding: 20px;
+    align-items: center;
+
+}
+
+
+.left-nav {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 25px;
+}
+
+
+grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border: black;
+    column-gap: 20px;
+
+}
